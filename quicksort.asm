@@ -16,7 +16,7 @@ jr $ra
 
 # $a0: *a , $a1: esq $a2: dir
 # $s0: i, $s1: j, $s2: pivo
-QuickSort: addi $sp,$sp,-16 #mover a pilha, savar s
+QuickSort: addi $sp,$sp,-16 #mover a pilha, salvar s
 	sw $ra,12($sp)
 	sw $s2,8($sp)
 	sw $s1,4($sp)
